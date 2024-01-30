@@ -2,5 +2,18 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Train.cpp">
+      <Filter>Train</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Train">
+      <UniqueIdentifier>{0772488e-341b-451c-a22a-f6e8118e83c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Train.h">
+      <Filter>Train</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
