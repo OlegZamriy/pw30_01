@@ -30,7 +30,7 @@ int main() {
 
     if (!trainFound) {
         std::cout << "Train with number " << queriedTrainNumber << " not found.\n";
-    }
+    } 
 
     return 0;
 }
